@@ -108,7 +108,7 @@ public class BasicTypes {
         int a = 7;
         int b = 5;
 
-        System.out.println(a == b);
+        System.out.println(a == b); //zwraca booleana
         System.out.println(a <= b);
         System.out.println(a >= b);
         System.out.println(a != b);
@@ -117,12 +117,26 @@ public class BasicTypes {
         System.out.println(a * b);
         System.out.println(a / b);
         System.out.println((double) a / b);
-        System.out.println(a % b);
+        System.out.println(a % b); //parsowąć - zmieniać typa
     }
 
     public void someMethod() {
         int a = 5;
     }
 
+
+
+
+    public static void method4()
+    {
+
+        int a = 7;
+        int b = a;
+
+        b = b + 5;
+
+        System.out.println(a);
+        System.out.println(b);
+    }
 
 }
