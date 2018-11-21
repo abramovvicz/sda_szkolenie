@@ -1,6 +1,5 @@
 package domowe;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class Lotto {
@@ -40,7 +39,7 @@ public class Lotto {
 
                 }
             }
-            System.out.println("wylosowane liczby : " + table[i]);
+            System.out.println("Prędzej wygram w totka niż zostanę programistą? Sprawdźmy to!: " + table[i]);
         }
     }
 }
