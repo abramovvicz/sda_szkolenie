@@ -12,15 +12,8 @@ public class Lotto {
         lotto.checkNumbers();
     }
 
-    //    table[0] = 4;
-//    table[1] = 5;
-//    table[2] = 2;
-//    table[3] = 6;
-//    table[4] = 6;
-//    table[5] = 6;
     private void chooseNumbers() {
         Random random = new Random();
-
         for (int i = 0; i < table.length; i++) {
             table[i] = random.nextInt(48) + 1;
             table2[i] = table[i];
