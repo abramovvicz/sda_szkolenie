@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f6f2c0-5f2b-490b-8c1f-28c9512abcfb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domowe/Lotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domowe/Lotto.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,12 +46,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="21712" />
+          <entry key="java" value="22884" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21712" />
+          <entry key="JAVA" value="22884" />
         </counts>
       </usages-collector>
     </session>
@@ -118,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/day2/Loops.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="740">
               <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
               <folding>
                 <element signature="method#method1#0;class#Loops#0" />
@@ -128,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="49" selection-end-column="27" />
+            <state relative-caret-position="141">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domowe/Lotto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="419">
+              <caret line="35" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -205,9 +206,9 @@
         <option value="$PROJECT_DIR$/src/main/java/day3/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/day3/TestCar.java" />
         <option value="$PROJECT_DIR$/src/main/java/day3/ScannerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/day3/MathTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/domowe/Lotto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java" />
       </list>
     </option>
   </component>
@@ -304,7 +305,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542834540866" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542909970931" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -323,26 +324,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lotto">
+  <component name="RunManager" selected="Application.ArrayTest">
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="domowe.ArrayTest" />
       <module name="Szkolenie" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="domowe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2.Loops" />
-      <module name="Szkolenie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -403,19 +391,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Loops" />
       <item itemvalue="Application.MathTest" />
       <item itemvalue="Application.TestCar" />
       <item itemvalue="Application.Lotto" />
       <item itemvalue="Application.ScannerTest" />
+      <item itemvalue="Application.ArrayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.Lotto" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.ScannerTest" />
         <item itemvalue="Application.TestCar" />
-        <item itemvalue="Application.MathTest" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +434,7 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25679544" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -476,7 +464,7 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -518,6 +506,12 @@
           <line>71</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -640,28 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day2/Loops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-          <folding>
-            <element signature="method#method1#0;class#Loops#0" />
-            <element signature="method#method2#0;class#Loops#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day2/ShortIf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
-          <folding>
-            <element signature="method#bad#0;class#ShortIf#0" />
-            <element signature="method#method1#0;class#ShortIf#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day2/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -701,20 +673,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day2/ShortIf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="49" selection-end-column="27" />
+        <state relative-caret-position="645">
+          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#bad#0;class#ShortIf#0" />
+            <element signature="method#method1#0;class#ShortIf#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day2/Loops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="method#method1#0;class#Loops#0" />
+            <element signature="method#method2#0;class#Loops#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domowe/Lotto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="419">
+          <caret line="35" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

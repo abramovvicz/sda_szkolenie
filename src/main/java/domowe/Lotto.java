@@ -12,10 +12,14 @@ public class Lotto {
         lotto.checkNumbers();
     }
 
+
     private void chooseNumbers() {
         Random random = new Random();
+
         for (int i = 0; i < table.length; i++) {
             table[i] = random.nextInt(48) + 1;
+
+
             table2[i] = table[i];
         }
 
