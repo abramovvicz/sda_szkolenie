@@ -33,14 +33,13 @@ public class ArrayTest {
             return;
         } else {
             System.out.println("Enter number to add to table");
-           int number = giveNumber.nextInt();
+            int number = giveNumber.nextInt();
             int[] table2 = new int[table1.length + 1];
-            for (int i = tableIndex; i < table2.length ; i++) {
-                if (tableIndex==0 && i<table1.length){
-                table2[i+1]=table1[i];
-                }else
-                {
-                table2[i] = table1[i - 1];
+            for (int i = tableIndex; i < table2.length; i++) {
+                if (tableIndex == 0 && i < table1.length) {
+                    table2[i + 1] = table1[i];
+                } else {
+                    table2[i] = table1[i - 1];
                 }
                 for (int j = 0; j < table1.length; j++) {
                     if (table2[j] == 0) {
