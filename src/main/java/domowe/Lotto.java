@@ -17,7 +17,7 @@ public class Lotto {
         Random random = new Random();
 
         for (int i = 0; i < table.length; i++) {
-            table[i] = random.nextInt(48) + 1;
+            table[i] = random.nextInt(49) + 1;
 
 
             table2[i] = table[i];
