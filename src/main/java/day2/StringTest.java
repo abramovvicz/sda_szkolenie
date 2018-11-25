@@ -16,7 +16,7 @@ public class StringTest {
     }
     private static void method1() {
         String a = "Ala ma kota";
-        String[] table = a.split(" ");
+        String[] table = a.split(" "); //dzieli stringi
         System.out.println(table[0]);
         System.out.println(table[1]);
         System.out.println(table[2]);

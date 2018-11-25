@@ -22,18 +22,17 @@ public class ArrayTest {
 
 
     private void addNumberToIndex() {
-        Scanner giveIndex = new Scanner(System.in);
-        Scanner giveNumber = new Scanner(System.in);
+        Scanner giveIndex = new Scanner(System.in);//moze byc tylko jeden
         System.out.println("Enter index of the array: ");
         int tableIndex = giveIndex.nextInt();
 
 
         if (tableIndex > table1.length) {
-            System.out.println("Table length is: " + table1.length + " \n you have exceeded the length of the board, give another index");
+            System.out.println("Table length is: " + table1.length + " \n you have exceeded the length of the table, give another index");
             return;
         } else {
             System.out.println("Enter number to add to table");
-            int number = giveNumber.nextInt();
+            int number = giveIndex.nextInt();
             int[] table2 = new int[table1.length + 1];
             for (int i = tableIndex; i < table2.length; i++) {
                 if (tableIndex == 0 && i < table1.length) {
@@ -56,7 +55,7 @@ public class ArrayTest {
 
     private void fillTable() {
         int max = 1000;
-        Random random = new Random();
+        Random random = new Random(); // wystarczy raz stworzyć obiekt random nie trzeba cały czas robić new
         for (int i = 0; i < table1.length; i++) {
             table1[i] = random.nextInt(max);
 
