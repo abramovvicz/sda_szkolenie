@@ -21,7 +21,7 @@ public class IntToBin {
     private void wyznaczReszteDzielenia() {
         int pobranaLiczba = a;
         int modulo;
-        binaryNumber = new int[31]; // za cholere nie wiem jak
+        binaryNumber = new int[5]; // za cholere nie wiem jak
         for (int i = 0; i < 31; i++) {
 
             if (pobranaLiczba == 0) {
