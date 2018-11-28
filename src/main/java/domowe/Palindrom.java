@@ -20,11 +20,8 @@ public class Palindrom {
         }
 
         String check = String.join("", table2);
-        if (check.equals(result)) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
+        result = check.equals(result)? "true":"false";
+        System.out.println(result);
 
         return result;
     }

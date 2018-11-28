@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f6f2c0-5f2b-490b-8c1f-28c9512abcfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/IntToBinTrener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/ObjectIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/QAnswersArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson/CareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson/SchoolWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson/SchoolWorkerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson2/Bmw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson2/M3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson3/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson3/PizzaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson3/PizzaDAODB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/abstractLesson3/PizzaDAOMem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/dziedziczenie/Ancestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/dziedziczenie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/dziedziczenie/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day5/dziedziczenie/Whatever.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domowe/Palindrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domowe/IntToBin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domowe/IntToBin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domowe/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domowe/Palindrom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/domowe/Palindrom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="301">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -304,7 +278,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Arrays.toString&#9;null&#9;null&#10;Arra&#9;FILE&#9;file:///Users/abramovvicz/Dysk Google/HowToDev/Szkolenie/src/main/java/domowe/ArrayTest.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543416577547" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543416858696" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -935,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domowe/Palindrom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="301">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
