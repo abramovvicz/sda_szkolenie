@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f6f2c0-5f2b-490b-8c1f-28c9512abcfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/domowe/AnotherSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domowe/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domowe/Palindrom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,11 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domowe/Palindrom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domowe/AnotherSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -98,15 +109,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domowe/DomoweTrener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="129" column="25" lean-forward="true" selection-start-line="129" selection-start-column="25" selection-end-line="130" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domowe/IntToBin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-57">
@@ -139,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/domowe/Zadanie1.java" />
         <option value="$PROJECT_DIR$/src/main/java/domowe/ZadanieDomowe1.java" />
         <option value="$PROJECT_DIR$/src/main/java/day1/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/day1/BasicTypes.java" />
@@ -190,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/main/java/day5/dziedziczenie/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/day5/dziedziczenie/Whatever.java" />
         <option value="$PROJECT_DIR$/src/main/java/domowe/Palindrom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domowe/AnotherSum.java" />
       </list>
     </option>
   </component>
@@ -278,7 +280,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Arrays.toString&#9;null&#9;null&#10;Arra&#9;FILE&#9;file:///Users/abramovvicz/Dysk Google/HowToDev/Szkolenie/src/main/java/domowe/ArrayTest.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543416858696" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543433426736" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -297,13 +299,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Palindrom">
-    <configuration name="IntToBinTrener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day5.IntToBinTrener" />
+  <component name="RunManager" selected="Application.AnotherSum">
+    <configuration name="AnotherSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="domowe.AnotherSum" />
       <module name="Szkolenie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day5.*" />
+          <option name="PATTERN" value="domowe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,12 +313,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day5.abstractLesson2.Main" />
+    <configuration name="IntToBinTrener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day5.IntToBinTrener" />
       <module name="Szkolenie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day5.abstractLesson2.*" />
+          <option name="PATTERN" value="day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,19 +366,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.IntToBinTrener" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Palindrom" />
       <item itemvalue="Application.StringTest" />
+      <item itemvalue="Application.AnotherSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnotherSum" />
         <item itemvalue="Application.Palindrom" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.IntToBinTrener" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +511,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/day2/DynamicStatic.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16354">
@@ -909,8 +910,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domowe/Palindrom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domowe/AnotherSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>

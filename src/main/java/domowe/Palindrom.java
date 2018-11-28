@@ -5,6 +5,10 @@ public class Palindrom {
         String a = checkPalindrom("kajak");
         String b = checkPalindrom("Kobyła ma mały bok");
         String c = checkPalindrom("kobyła coś tam robi");
+        String d = checkPalindrom("aibofobia");
+        String e = checkPalindrom("Skal Eva have laks");
+        String f = checkPalindrom("Able was I ere I saw Elba");
+        String g = checkPalindrom("Marzena pokazała Zakopane z ram");
 //        System.out.println(a.equals("kajak") ? "ok" : "błąd");
 //        System.out.println(b.equals("Kobyła ma mały bok") ? "ok" : "błąd");
 //        System.out.println(c.equals("kobyła coś tam robi") ? "ok" : "błąd");
