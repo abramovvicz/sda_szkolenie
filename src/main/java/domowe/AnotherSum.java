@@ -15,13 +15,12 @@ public class AnotherSum {
         int b1 = b;
 
         int sum = (a1 - b1) * -1;
-//      String wynik = sum + "";
-
-        // lub
-
-
         System.out.println(sum);
-//       System.out.println(wynik.replaceAll("-", ""));
+
+        /* lub tak
+        System.out.println(wynik.replaceAll("-", ""));
+        String wynik = sum + "";
+*/
 
         return sum;
     }
