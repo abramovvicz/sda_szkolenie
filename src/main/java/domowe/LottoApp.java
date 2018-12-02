@@ -47,12 +47,12 @@ public class LottoApp {
                 wynik.compare();
             }
         } catch (IllegalArgumentException e) {
-            System.out.println("Podałeś błędne paratmery");
+            System.out.println("Podałeś błędne parametry.");
             System.out.println(e.getMessage());
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Podałeś za mało liczb, podaj 6 liczb");
+            System.out.println("Podałeś za mało liczb, podaj 6 liczb.");
         } finally {
-            System.out.println("sekcja finaly");
+            System.out.println("Sekcja finaly");
         }
 
     }
@@ -73,14 +73,14 @@ public class LottoApp {
         for (int i = 0; i < tableUser.length; i++) {
             tableUser[i] = Integer.parseInt(stringTable[i]);
             if (tableUser[i] >= 50) {
-                System.out.println("podałes złe liczby podaj jeszcze raz");
+                System.out.println("Podałeś złe liczby podaj jeszcze raz.");
                 flag = true;
                 break;
             }
             for (int j = 0; j < tableUser.length; j++) {
                 if (i != j) {
                     if (tableUser[i] == tableUser[j]) {
-                        System.out.println("podałeś dwie takie same liczby");
+                        System.out.println("Podałeś dwa razy takie same liczby.");
                         flag = true;
                         break;
                     }
@@ -105,25 +105,25 @@ public class LottoApp {
 
         switch (counter) {
             case 0:
-                System.out.println("trafiłeś jedną liczbę");
+                System.out.println("Trafiłeś jedną liczbę.");
                 break;
             case 1:
-                System.out.println("trafiłeś dwie liczby");
+                System.out.println("Trafiłeś dwie liczby.");
                 break;
             case 2:
-                System.out.println("trafiłeś trzy liczby");
+                System.out.println("Trafiłeś trzy liczby.");
                 break;
             case 3:
-                System.out.println("trafiłeś cztery liczby");
+                System.out.println("Trafiłeś cztery liczby.");
                 break;
             case 4:
-                System.out.println("trafiłeś pięć liczb");
+                System.out.println("Trafiłeś pięć liczb.");
                 break;
             case 5:
-                System.out.println("trafiłeś sześć liczb");
+                System.out.println("Trafiłeś sześć liczb.");
                 break;
             default:
-                System.out.println("nie trafiłeś rzadnej liczby");
+                System.out.println("Nie trafiłeś rzadnej liczby.");
                 break;
 
         }
