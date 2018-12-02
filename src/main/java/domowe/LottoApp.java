@@ -50,15 +50,17 @@ public class LottoApp {
                 System.out.println(e.getMessage());
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Podałeś za mało liczb, podaj 6 liczb.");
-            } finally {
-                System.out.print("");
             }
 
         }
-        wynik.chooseNumbers();
-        Arrays.sort(wynik.table);
-        wynik.compare();
 
+        try {
+            wynik.chooseNumbers();
+            Arrays.sort(wynik.table);
+            wynik.compare();
+        } finally {
+            System.out.print("end program");
+        }
 
     }
 
