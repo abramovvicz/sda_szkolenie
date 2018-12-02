@@ -22,7 +22,7 @@ public class LottoApp {
 
 //        table = new int[]{1, 2, 3, 4, 5, 6};
 
-        /*do testów*/
+        /*end do testowania*/
 
         table = new int[quantityNumbers];
         this.max = range;
