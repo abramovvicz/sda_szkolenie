@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class LottoApp {
 
-    private static boolean flag = false;
+    private static boolean flag = true;
     private int[] table;
     private int[] tableUser;
     private String[] stringTable;
@@ -36,24 +36,29 @@ public class LottoApp {
 
     public static void main(String[] args) {
 
-        try {
-            LottoApp wynik = new LottoApp(6, 49);
-            wynik.askForNumbers();
-            Arrays.sort(wynik.tableUser);
-            wynik.changeToIntAndCheckNumbers();
-            if (!flag) {
-                wynik.chooseNumbers();
-                Arrays.sort(wynik.table);
-                wynik.compare();
+        LottoApp wynik = new LottoApp(6, 49);
+
+
+        while (flag) {
+            try {
+                wynik.askForNumbers();
+                Arrays.sort(wynik.tableUser);
+                wynik.changeToIntAndCheckNumbers();
+
+            } catch (IllegalArgumentException e) {
+                System.out.println("Podałeś błędne parametry.");
+                System.out.println(e.getMessage());
+            } catch (ArrayIndexOutOfBoundsException e) {
+                System.out.println("Podałeś za mało liczb, podaj 6 liczb.");
+            } finally {
+                System.out.print("");
             }
-        } catch (IllegalArgumentException e) {
-            System.out.println("Podałeś błędne parametry.");
-            System.out.println(e.getMessage());
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Podałeś za mało liczb, podaj 6 liczb.");
-        } finally {
-            System.out.println("Sekcja finaly");
+
         }
+        wynik.chooseNumbers();
+        Arrays.sort(wynik.table);
+        wynik.compare();
+
 
     }
 
@@ -68,25 +73,26 @@ public class LottoApp {
     }
 
 
-
     private void changeToIntAndCheckNumbers() {
+        flag = false;
         for (int i = 0; i < tableUser.length; i++) {
             tableUser[i] = Integer.parseInt(stringTable[i]);
             if (tableUser[i] >= 50) {
-                System.out.println("Podałeś złe liczby podaj jeszcze raz.");
+                System.out.println("Podałeś złe liczby.");
                 flag = true;
                 break;
             }
             for (int j = 0; j < tableUser.length; j++) {
                 if (i != j) {
                     if (tableUser[i] == tableUser[j]) {
-                        System.out.println("Podałeś dwa razy takie same liczby.");
+                        System.out.println("Podałeś dwa razy takie same liczby. Spróbuj jeszcze raz");
                         flag = true;
                         break;
                     }
                 }
             }
         }
+
     }
 
     private void compare() {
