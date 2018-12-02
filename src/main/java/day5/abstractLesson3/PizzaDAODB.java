@@ -1,4 +1,13 @@
 package day5.abstractLesson3;
 
-public class PizzaDAODB {
+public class PizzaDAODB implements PizzaDAO {
+    @Override
+    public void addPizza(Pizza pizza) {
+        System.out.println("dodano pizze do bazy danych DB \n" + pizza);
+    }
+
+    @Override
+    public Pizza getPizza() {
+        return new Pizza("pizza z DB", 40);
+    }
 }
