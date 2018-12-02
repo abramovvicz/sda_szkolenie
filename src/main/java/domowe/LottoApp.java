@@ -39,9 +39,8 @@ public class LottoApp {
         try {
             LottoApp wynik = new LottoApp(6, 49);
             wynik.askForNumbers();
-            wynik.changeToInt();
             Arrays.sort(wynik.tableUser);
-            wynik.checkNumbers();
+            wynik.changeToIntAndCheckNumbers();
             if (!flag) {
                 wynik.chooseNumbers();
                 Arrays.sort(wynik.table);
@@ -50,22 +49,14 @@ public class LottoApp {
         } catch (IllegalArgumentException e) {
             System.out.println("Podałeś błędne paratmery");
             System.out.println(e.getMessage());
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Podałeś za mało liczb, podaj 6 liczb");
         } finally {
-            System.out.println("uruchom program jeszcze raz");
+            System.out.println("sekcja finaly");
         }
 
     }
 
-    private void checkNumbers() {
-        for (int i = 0; i < tableUser.length; i++) {
-            if (tableUser[i] >= 50) {
-                System.out.println("podałes złe liczby podaj jeszcze raz");
-                flag = true;
-                break;
-            }
-        }
-//        flag = false;
-    }
 
     private void askForNumbers() {
         System.out.println("Witaj w dzisiejszym losowaniu Lotto, może to Ty dzisiaj wygrasz? \n Podaj proszę 6 liczb po przecinku od 1 do 49 i wciśnij Enter");
@@ -76,9 +67,25 @@ public class LottoApp {
         tableUser = new int[stringTable.length];
     }
 
-    private void changeToInt() {
-        for (int i = 0; i < table.length; i++) {
+
+
+    private void changeToIntAndCheckNumbers() {
+        for (int i = 0; i < tableUser.length; i++) {
             tableUser[i] = Integer.parseInt(stringTable[i]);
+            if (tableUser[i] >= 50) {
+                System.out.println("podałes złe liczby podaj jeszcze raz");
+                flag = true;
+                break;
+            }
+            for (int j = 0; j < tableUser.length; j++) {
+                if (i != j) {
+                    if (tableUser[i] == tableUser[j]) {
+                        System.out.println("podałeś dwie takie same liczby");
+                        flag = true;
+                        break;
+                    }
+                }
+            }
         }
     }
 
@@ -128,7 +135,7 @@ public class LottoApp {
         for (int i = 0; i < table.length; i++) {
             int a = random.nextInt(max) + 1;
 
-            if (checkExist(a)) {
+            if (checkExistRandomNumbers(a)) {
                 i--;
             } else {
                 table[i] = a;
@@ -137,7 +144,7 @@ public class LottoApp {
         }
     }
 
-    private boolean checkExist(int a) {
+    private boolean checkExistRandomNumbers(int a) {
 
         for (int b : table) {   // for each
             if (b == a) {
@@ -146,7 +153,7 @@ public class LottoApp {
         }
         return false;
 
-
     }
+
 }
 
