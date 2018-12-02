@@ -36,32 +36,24 @@ public class LottoApp {
 
     public static void main(String[] args) {
 
-        LottoApp wynik = new LottoApp(6, 49);
 
-
-        while (flag) {
-            try {
+        try {
+            LottoApp wynik = new LottoApp(6, 49);
+            while (flag) {
                 wynik.askForNumbers();
                 Arrays.sort(wynik.tableUser);
                 wynik.changeToIntAndCheckNumbers();
-
-            } catch (IllegalArgumentException e) {
-                System.out.println("Podałeś błędne parametry.");
-                System.out.println(e.getMessage());
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("Podałeś za mało liczb, podaj 6 liczb.");
             }
-
-        }
-
-        try {
             wynik.chooseNumbers();
             Arrays.sort(wynik.table);
             wynik.compare();
-        } finally {
-            System.out.print("end program");
+        } catch (IllegalArgumentException e) {
+            System.out.println("Podałeś błędne parametry.");
+            System.out.println(e.getMessage());
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Podałeś za mało liczb, podaj 6 liczb.");
         }
-
+        System.out.print("end program");
     }
 
 
@@ -76,24 +68,30 @@ public class LottoApp {
 
 
     private void changeToIntAndCheckNumbers() {
-        flag = false;
-        for (int i = 0; i < tableUser.length; i++) {
-            tableUser[i] = Integer.parseInt(stringTable[i]);
-            if (tableUser[i] >= 50) {
-                System.out.println("Podałeś złe liczby.");
-                flag = true;
-                break;
-            }
-            for (int j = 0; j < tableUser.length; j++) {
-                if (i != j) {
-                    if (tableUser[i] == tableUser[j]) {
-                        System.out.println("Podałeś dwa razy takie same liczby. Spróbuj jeszcze raz");
-                        flag = true;
-                        break;
+
+        if (tableUser.length == 6) {
+            flag = false;
+            for (int i = 0; i < tableUser.length; i++) {
+                tableUser[i] = Integer.parseInt(stringTable[i]);
+                if (tableUser[i] >= 50) {
+                    System.out.println("Podałeś złe liczby.");
+                    flag = true;
+                    break;
+                }
+                for (int j = 0; j < tableUser.length; j++) {
+                    if (i != j) {
+                        if (tableUser[i] == tableUser[j]) {
+                            System.out.println("Podałeś dwa razy takie same liczby. Spróbuj jeszcze raz");
+                            flag = true;
+                            break;
+                        }
                     }
                 }
             }
+        } else {
+            System.out.println("Podałeś za mało liczb");
         }
+
 
     }
 
@@ -164,4 +162,3 @@ public class LottoApp {
     }
 
 }
-
