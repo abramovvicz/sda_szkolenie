@@ -77,9 +77,8 @@ public class ArrayTest {
 //        for (int i = 0; i < tablica.length; i++) {
 //            tablica2[i] = tablica[i];
 //        }
-        int[] tablica2 = Arrays.copyOf(table1, table1.length + 1);
-        tablica2[tablica2.length - 1] = a;
-        table1 = tablica2;
+//        tablica2[tablica2.length - 1] = a;
+  //      table1 = tablica2;
     }
 
 

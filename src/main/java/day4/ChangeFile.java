@@ -24,7 +24,7 @@ public class ChangeFile {
 
     }
 
-    private String changeFile() throws IOException {//klasa, która osbługuje piki katalogi,
+    private String changeFile() throws IOException {//klasa, która osbługuje pliki katalogi,
         File file = new File("plik.txt");
         StringBuilder result = new StringBuilder(); //warto zapietać do budowania dużych stringów bardzo dużych
 

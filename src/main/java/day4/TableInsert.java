@@ -10,10 +10,10 @@ public class TableInsert {
     public static void main(String[] args) {
         TableInsert tableInsert = new TableInsert();
 //        tableInsert.wypiszTablice();
-       // tableInsert.wypiszTabliceForEarch();
+//        tableInsert.wypiszTabliceForEarch();
         //tableInsert.metodaPrzyjmujacaWieleArgumentow(1, 3, 4, 5, 6, 6, 8, 5, 3);
         System.out.println(Arrays.toString(tableInsert.table));
-        tableInsert.insert2(5, 10);
+        tableInsert.insert1(5, 10);
         System.out.println(Arrays.toString(tableInsert.table));
     }
 
@@ -40,6 +40,7 @@ public class TableInsert {
         for (int i = 0; i < table.length; i++) {
             copyTable[i + ((i < index) ? 0 : 1)] = table[i];// zajebiste
         }
+        copyTable[index] = value;
         table = copyTable;
     }
 

@@ -29,8 +29,8 @@ public class Utils {
         return result.toString(); //zwracamy stringa
     }
 
-    public static Object readObject(String plik) throws IOException, ClassNotFoundException {
-        File file = new File(plik);
+    public static Object readObject(String someFile) throws IOException, ClassNotFoundException {
+        File file = new File(someFile);
         FileInputStream fileInputStream = new FileInputStream(file);
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
         return objectInputStream.readObject();

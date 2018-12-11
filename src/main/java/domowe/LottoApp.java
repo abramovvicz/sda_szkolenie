@@ -36,24 +36,24 @@ public class LottoApp {
 
     public static void main(String[] args) {
 
-
         try {
-            LottoApp wynik = new LottoApp(6, 49);
+            LottoApp result = new LottoApp(6, 49);
             while (flag) {
-                wynik.askForNumbers();
-                Arrays.sort(wynik.tableUser);
-                wynik.changeToIntAndCheckNumbers();
+                result.askForNumbers();
+                Arrays.sort(result.tableUser);
+                result.changeToIntAndCheckNumbers();
             }
-            wynik.chooseNumbers();
-            Arrays.sort(wynik.table);
-            wynik.compare();
+            result.chooseNumbers();
+            Arrays.sort(result.table);
+            result.compare();
         } catch (IllegalArgumentException e) {
             System.out.println("Podałeś błędne parametry.");
             System.out.println(e.getMessage());
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Podałeś za mało liczb, podaj 6 liczb.");
+        } finally {
+            System.out.print("end program");
         }
-        System.out.print("end program");
     }
 
 
@@ -71,14 +71,14 @@ public class LottoApp {
 
         if (tableUser.length == 6) {
             flag = false;
-            for (int i = 0; i < tableUser.length; i++) {
+            for (int i = 0; i < table.length; i++) {
                 tableUser[i] = Integer.parseInt(stringTable[i]);
                 if (tableUser[i] >= 50) {
                     System.out.println("Podałeś złe liczby.");
                     flag = true;
                     break;
                 }
-                for (int j = 0; j < tableUser.length; j++) {
+                for (int j = 0; j < table.length; j++) {
                     if (i != j) {
                         if (tableUser[i] == tableUser[j]) {
                             System.out.println("Podałeś dwa razy takie same liczby. Spróbuj jeszcze raz");
