@@ -14,7 +14,7 @@ public interface BookDAO {
 
     Book findBookByID(int id) throws day7.bookstore.exceptions.OwnException;
 
-    Book findBookByTitle(String title);
+    Book findBookByTitle(String title) throws day7.bookstore.exceptions.OwnException;
 
     List<Book> findBooksByTitle(String title);
 

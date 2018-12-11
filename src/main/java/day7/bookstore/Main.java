@@ -26,12 +26,12 @@ public class Main {
         bookDAOFile.addBook(book);
         objectBook.put(book.getId(), book);
         System.out.println(objectBook);
-        
-        bookDAOFile.findBookByTitle("ol");
 
         try {
-            bookDAOFile.findBookByID(6);
+            bookDAOFile.findBookByTitle("Sol");
+            bookDAOFile.findBookByTitle("asda");
             bookDAOFile.findBookByID(39);
+            bookDAOFile.findBookByID(6);
 
         } catch (OwnException e) {
             System.out.println(e.getMessage());

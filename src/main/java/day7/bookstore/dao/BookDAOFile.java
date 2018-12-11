@@ -13,7 +13,6 @@ public class BookDAOFile implements BookDAO {
     private Map<Integer, Book> booksMap = new HashMap<>();  //
     private List<Author> authorsLists = new ArrayList<>();
 
-
     public BookDAOFile() throws IOException {
         insertBooks();
     }
@@ -78,7 +77,7 @@ public class BookDAOFile implements BookDAO {
     @Override
     public Book findBookByID(int id) throws OwnException {
         if (booksMap.get(id) == null) {
-            throw new OwnException("Nie znaleziono książki o id "+ id);
+            throw new OwnException("Nie znaleziono książki o id " + id);
         } else {
             Book book = booksMap.get(id);
             System.out.println("książka znaleziona: " + book);
@@ -87,9 +86,18 @@ public class BookDAOFile implements BookDAO {
     }
 
     @Override
-    public Book findBookByTitle(String title) {
-        System.out.println(booksMap.values());
+    public Book findBookByTitle(String title) throws OwnException {
 
+        List<Book> books = getAllBooks();
+        for (Book book : books) {
+//           if(title.equalsIgnoreCase(book.getTitle())){ // przy takim zapisie nie znajdzie ksiazki przy niepelnym podanym tytlue
+            if (book.getTitle().contains(title)) {
+                System.out.println("Znaleziono książkę o podanym tytule: " + book);
+                return book;
+            }else{
+                throw new OwnException("Nie ma ksiązki o szukanym tytule");
+            }
+        }
         return null;
     }
 
@@ -105,7 +113,8 @@ public class BookDAOFile implements BookDAO {
 
     @Override
     public List<Book> getAllBooks() {
-        return null;
+        Collection<Book> allBooks = booksMap.values();
+        return new ArrayList<>(allBooks);
     }
 
     @Override

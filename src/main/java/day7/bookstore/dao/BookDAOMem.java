@@ -119,7 +119,7 @@ public class BookDAOMem implements BookDAO {
         Collection<Book> books = mapa.values();
 
 
-        return new ArrayList<>(books);
+        return new ArrayList<>(books); // to ciekawe jest new ArrayList<>(books)
     }
 
     @Override
