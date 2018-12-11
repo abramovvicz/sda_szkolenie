@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f6f2c0-5f2b-490b-8c1f-28c9512abcfb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/authors.dat" beforeDir="false" afterPath="$PROJECT_DIR$/authors.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books.dat" beforeDir="false" afterPath="$PROJECT_DIR$/books.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="80" column="70" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
+            <state relative-caret-position="79">
+              <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2876#2877#0" expanded="true" />
@@ -108,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="297">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,8 +196,8 @@
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/exceptions/OwnException.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/exceptions/Exceptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" />
       </list>
     </option>
   </component>
@@ -336,7 +332,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Arrays.toString&#9;null&#9;null&#10;Arra&#9;FILE&#9;file:///Users/abramovvicz/Dysk Google/HowToDev/Szkolenie/src/main/java/domowe/ArrayTest.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544561590380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544561822063" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1007,25 +1003,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="80" column="70" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
+        <state relative-caret-position="79">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2876#2877#0" expanded="true" />
             <element signature="e#2974#2975#0" expanded="true" />
             <element signature="e#3054#3055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

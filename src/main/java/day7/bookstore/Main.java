@@ -21,11 +21,12 @@ public class Main {
         System.out.println(objectBook);
 
         BookDAO bookDAOFile = new BookDAOFile();
-        Book book = new Book("Tytuł", "Typ książki", new Author(((BookDAOFile) bookDAOFile).generateAuthorID(), "Imię", "Nazwisko"), 90.99); // pytanie jak z tego korzystać
+        Book book = new Book("Fundacja", "SF", new Author(((BookDAOFile) bookDAOFile).generateAuthorID(), "Dan", "Simmons"), 90.99); // pytanie jak z tego korzystać
         //TRENERZE co oznacza ((BookDAOFile) bookDAOFile).generateAuthorID()  czemu to tak rzutuje ?
         bookDAOFile.addBook(book);
         objectBook.put(book.getId(), book);
         System.out.println(objectBook);
+        
         bookDAOFile.findBookByTitle("ol");
 
         try {
