@@ -92,9 +92,9 @@ public class BookDAOFile implements BookDAO {
         for (Book book : books) {
 //           if(title.equalsIgnoreCase(book.getTitle())){ // przy takim zapisie nie znajdzie ksiazki przy niepelnym podanym tytlue
             if (book.getTitle().contains(title)) {
-                System.out.println("Znaleziono książkę o podanym tytule: " + book);
+                System.out.println("Znaleziono książkę o szukanym tytule: " + book);
                 return book;
-            }else{
+            } else {
                 throw new OwnException("Nie ma ksiązki o szukanym tytule");
             }
         }
@@ -102,8 +102,18 @@ public class BookDAOFile implements BookDAO {
     }
 
     @Override
-    public List<Book> findBooksByTitle(String title) {
-        return null;
+    public List<Book> findBooksByTitle(String title) throws OwnException {
+        List<Book> books = getAllBooks();
+        List<Book> findBooksByTitle = new ArrayList<>();
+        for (Book book : books) {
+            if (book.getTitle().contains(title)) {
+                findBooksByTitle.add(book);
+            } else {
+                throw new OwnException("Nie ma książek o szukanym tytule");
+            }
+        }
+
+        return findBooksByTitle;
     }
 
     @Override

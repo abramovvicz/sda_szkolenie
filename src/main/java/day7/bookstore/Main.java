@@ -28,8 +28,9 @@ public class Main {
         System.out.println(objectBook);
 
         try {
-            bookDAOFile.findBookByTitle("Sol");
-            bookDAOFile.findBookByTitle("asda");
+//            bookDAOFile.findBookByTitle("Sol");
+//            bookDAOFile.findBookByTitle("asda");
+            System.out.println( bookDAOFile.findBooksByTitle("asdco"));
             bookDAOFile.findBookByID(39);
             bookDAOFile.findBookByID(6);
 

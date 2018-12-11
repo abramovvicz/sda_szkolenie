@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-669">
+            <state relative-caret-position="-842">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,15 +59,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+            <state relative-caret-position="367">
+              <caret line="111" column="54" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3347#3348#0" expanded="true" />
-                <element signature="e#3445#3446#0" expanded="true" />
+                <element signature="e#3822#3823#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="195">
+              <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,8 +203,8 @@
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/exceptions/OwnException.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/exceptions/Exceptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" />
       </list>
     </option>
   </component>
@@ -340,7 +338,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Arrays.toString&#9;null&#9;null&#10;Arra&#9;FILE&#9;file:///Users/abramovvicz/Dysk Google/HowToDev/Szkolenie/src/main/java/domowe/ArrayTest.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544566664230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544567467687" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1003,8 +1001,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-669">
+        <state relative-caret-position="-842">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1013,22 +1021,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+        <state relative-caret-position="367">
+          <caret line="111" column="54" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3347#3348#0" expanded="true" />
-            <element signature="e#3445#3446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3822#3823#0" expanded="true" />
           </folding>
         </state>
       </provider>
