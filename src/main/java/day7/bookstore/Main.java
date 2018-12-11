@@ -12,10 +12,10 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class Main {
-    public static void main(String[] args) throws IOException, ClassNotFoundException, OwnException, day7.bookstore.exceptions.OwnException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException, OwnException {
 
 
-        ArrayList<Author> objectAuthor = (ArrayList<Author>) Utils.readObject("authors.dat");//        System.out.println(bookDAO.getAllBooks());
+        ArrayList<Author> objectAuthor = (ArrayList<Author>) Utils.readObject("authors.dat");//
         System.out.println(objectAuthor);
         Map<Integer, Book> objectBook = (Map<Integer, Book>) Utils.readObject("books.dat");
         System.out.println(objectBook);
@@ -26,14 +26,20 @@ public class Main {
         bookDAOFile.addBook(book);
         objectBook.put(book.getId(), book);
         System.out.println(objectBook);
+        bookDAOFile.findBookByTitle("ol");
 
         try {
-            bookDAOFile.findBookByID(49);
+            bookDAOFile.findBookByID(6);
+            bookDAOFile.findBookByID(39);
+
         } catch (OwnException e) {
             System.out.println(e.getMessage());
         } finally {
             System.out.println("finalny blok");
         }
+
+
+
 
 
         ////na lekcjach *****BOOKDAEOMEM /////
@@ -65,6 +71,6 @@ public class Main {
 
 //dorobić dodawanie id authora  // DONE
 //sprawdzić metody dla warunków brzegowych, żeby nie zwracałay nulla najlepiej przez exception - find po id lub wyaksować obiekt żeby były obsluzone wyjatkami,
-//poszukiwanie id, któ®ego nie ma itp itd
+//poszukiwanie id, któ®ego nie ma itp itd/DONE
 
 //zapisywać ksiązki do pliku i skorzystać z tego zapisać jako obiekt // DONE

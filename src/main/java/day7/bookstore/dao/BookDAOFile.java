@@ -24,8 +24,8 @@ public class BookDAOFile implements BookDAO {
         Author stanislawLem = new Author(idA1, "Stanisław", "Lem");
         authorsLists.add(stanislawLem);
         int idA2 = generateAuthorID();
-        Author harukiMurakami = new Author(idA2, "Haruki", "Murakami");
-        authorsLists.add(harukiMurakami);
+        Author danSimmons = new Author(idA2, "Dan", "Simmons");
+        authorsLists.add(danSimmons);
         int idA3 = generateAuthorID();
         Author sapkowski = new Author(idA3, "Andrzej", "Sapkowski");
         authorsLists.add(sapkowski);
@@ -33,7 +33,7 @@ public class BookDAOFile implements BookDAO {
         int id1 = generateID();
         booksMap.put(id1, new Book(id1, "Solaris", "SF", stanislawLem, 30.0));
         int id2 = generateID();
-        booksMap.put(id2, new Book(id2, "2088", "SF", harukiMurakami, 40.0));
+        booksMap.put(id2, new Book(id2, "Hyperion", "SF", danSimmons, 40.0));
         int id3 = generateID();
         booksMap.put(id3, new Book(id3, "Wiedźmin", "Fantasy", sapkowski, 50.0));
         int id4 = generateID();
@@ -71,7 +71,6 @@ public class BookDAOFile implements BookDAO {
 
     @Override
     public Book removeBook(int id) {
-
         return booksMap.remove(id);
 
     }
@@ -79,14 +78,18 @@ public class BookDAOFile implements BookDAO {
     @Override
     public Book findBookByID(int id) throws OwnException {
         if (booksMap.get(id) == null) {
-            throw new OwnException("Nie ma takiej książki"); 
+            throw new OwnException("Nie znaleziono książki o id "+ id);
         } else {
-            return booksMap.get(id);
+            Book book = booksMap.get(id);
+            System.out.println("książka znaleziona: " + book);
+            return book;
         }
     }
 
     @Override
     public Book findBookByTitle(String title) {
+        System.out.println(booksMap.values());
+
         return null;
     }
 

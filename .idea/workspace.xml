@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1f6f2c0-5f2b-490b-8c1f-28c9512abcfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day6/Excercises/DodawanieTrener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day6/Excercises/LottoMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day6/Kolekcje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day6/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day6/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/RepeatLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/domain/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/exceptions/OwnException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/enums/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/enums/ColorCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/wyjatki/Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day7/wyjatki/OwnException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day4/ChangeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day4/ChangeFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day4/TableInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day4/TableInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domowe/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domowe/LottoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domowe/LottoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domowe/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domowe/Palindrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authors.dat" beforeDir="false" afterPath="$PROJECT_DIR$/authors.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books.dat" beforeDir="false" afterPath="$PROJECT_DIR$/books.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="932">
-              <caret line="109" column="32" lean-forward="true" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+            <state relative-caret-position="-15">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,17 +72,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="109">
+              <caret line="80" column="70" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2728#2729#0" expanded="true" />
-                <element signature="e#2825#2826#0" expanded="true" />
-                <element signature="e#2923#2924#0" expanded="true" />
-                <element signature="e#3003#3004#0" expanded="true" />
+                <element signature="e#2876#2877#0" expanded="true" />
+                <element signature="e#2974#2975#0" expanded="true" />
+                <element signature="e#3054#3055#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="266">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,15 +193,15 @@
         <option value="$PROJECT_DIR$/src/main/java/day7/enums/ColorCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/domain/dao/BookDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/domain/Author.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/domain/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/exceptions/OwnExceptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/exceptions/OwnException.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/exceptions/Exceptions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java" />
         <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java" />
       </list>
     </option>
   </component>
@@ -356,7 +336,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Arrays.toString&#9;null&#9;null&#10;Arra&#9;FILE&#9;file:///Users/abramovvicz/Dysk Google/HowToDev/Szkolenie/src/main/java/domowe/ArrayTest.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544559735510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544561590380" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -931,26 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/domain/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/exceptions/OwnException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1010,10 +970,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day7/wyjatki/Exceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="26" column="118" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/domain/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOMem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="109" column="32" lean-forward="true" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+        <state relative-caret-position="-15">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1022,31 +1019,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/dao/BookDAOFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        <state relative-caret-position="109">
+          <caret line="80" column="70" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
-            <element signature="e#2825#2826#0" expanded="true" />
-            <element signature="e#2923#2924#0" expanded="true" />
-            <element signature="e#3003#3004#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day7/wyjatki/Exceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="26" column="118" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day7/bookstore/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#2974#2975#0" expanded="true" />
+            <element signature="e#3054#3055#0" expanded="true" />
           </folding>
         </state>
       </provider>

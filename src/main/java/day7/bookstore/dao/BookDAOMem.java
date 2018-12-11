@@ -16,13 +16,13 @@ public class BookDAOMem implements BookDAO {
 
     private void insertBooks() {
         Author stanislawLem = new Author(1, "Stanisław", "Lem");
-        Author harukiMurakami = new Author(2, "Haruki", "Murakami");
+        Author danSimmons = new Author(2, "Dan", "Simmons");
         Author sapkowski = new Author(3, "Andrzej", "Sapkowski");
 
         int id1 = generateID1();
         mapa.put(id1, new Book(id1, "Solaris", "SF", stanislawLem, 30.0));
         int id2 = generateID1();
-        mapa.put(id2, new Book(id2, "2088", "SF", harukiMurakami, 40.0));
+        mapa.put(id2, new Book(id2, "Hyperion", "SF", danSimmons, 40.0));
         int id3 = generateID1();
         mapa.put(id3, new Book(id3, "Wiedźmin", "Fantasy", sapkowski, 50.0));
         int id4 = generateID1();
