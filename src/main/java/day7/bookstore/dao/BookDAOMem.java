@@ -3,6 +3,7 @@ package day7.bookstore.dao;
 import day7.bookstore.domain.Author;
 import day7.bookstore.domain.Book;
 
+import java.io.IOException;
 import java.util.*;
 
 public class BookDAOMem implements BookDAO {
@@ -125,5 +126,20 @@ public class BookDAOMem implements BookDAO {
     @Override
     public void editBook(int id, Book book) {
         mapa.put(id,book);
+    }
+
+    @Override
+    public Map<Integer, Book> readBookDAOFile() throws IOException, ClassNotFoundException {
+        return null;
+    }
+
+    @Override
+    public void writeBookDAOFile() throws IOException {
+
+    }
+
+    @Override
+    public int generateAuthorID() {
+        return 0;
     }
 }

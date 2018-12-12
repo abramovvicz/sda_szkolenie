@@ -4,8 +4,9 @@ import day7.bookstore.domain.Author;
 import day7.bookstore.domain.Book;
 import day7.wyjatki.OwnException;
 
+import java.io.IOException;
 import java.util.List;
-import java.util.Set;
+import java.util.Map;
 
 public interface BookDAO {
     void addBook(Book book);
@@ -23,6 +24,12 @@ public interface BookDAO {
     List<Book> getAllBooks();
 
     void editBook(int id, Book book); //edycja ksiazki
+
+    Map<Integer, Book> readBookDAOFile() throws IOException, ClassNotFoundException;
+
+    void writeBookDAOFile() throws IOException;
+
+    int generateAuthorID();
 
 
 }

@@ -13,11 +13,11 @@ public class BookDAOFile implements BookDAO {
     private Map<Integer, Book> booksMap = new HashMap<>();  //
     private List<Author> authorsLists = new ArrayList<>();
 
-    public BookDAOFile() throws IOException {
+    public BookDAOFile() throws IOException, ClassNotFoundException {
         insertBooks();
     }
 
-    private void insertBooks() throws IOException {
+    private void insertBooks() throws IOException, ClassNotFoundException {
 
         int idA1 = generateAuthorID();
         Author stanislawLem = new Author(idA1, "Stanisław", "Lem");
@@ -40,8 +40,21 @@ public class BookDAOFile implements BookDAO {
         int id5 = generateID();
         booksMap.put(id5, new Book(id5, "Dzienniki gwiazdowe", "SF", stanislawLem, 49.99));
 
+        writeBookDAOFile();
+    }
+
+
+    public void writeBookDAOFile() throws IOException {
         Utils.writeObject("authors.dat", authorsLists); // DLA TRENINGU
         Utils.writeObject("books.dat", booksMap);
+    }
+
+
+    public Map<Integer,Book> readBookDAOFile() throws IOException, ClassNotFoundException {
+        ArrayList<Author> objectAuthor = (ArrayList<Author>) Utils.readObject("authors.dat");
+        Map<Integer, Book> objectBook = (Map<Integer, Book>) Utils.readObject("books.dat");
+
+        return objectBook;
     }
 
 

@@ -5,32 +5,27 @@ import day7.bookstore.dao.BookDAOFile;
 import day7.bookstore.domain.Author;
 import day7.bookstore.domain.Book;
 import day7.bookstore.exceptions.OwnException;
-import utils.Utils;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Map;
 
 public class Main {
     public static void main(String[] args) throws IOException, ClassNotFoundException, OwnException {
 
 
-        ArrayList<Author> objectAuthor = (ArrayList<Author>) Utils.readObject("authors.dat");//
-        System.out.println(objectAuthor);
-        Map<Integer, Book> objectBook = (Map<Integer, Book>) Utils.readObject("books.dat");
-        System.out.println(objectBook);
-
         BookDAO bookDAOFile = new BookDAOFile();
-        Book book = new Book("Fundacja", "SF", new Author(((BookDAOFile) bookDAOFile).generateAuthorID(), "Dan", "Simmons"), 90.99); // pytanie jak z tego korzystać
-        //TRENERZE co oznacza ((BookDAOFile) bookDAOFile).generateAuthorID()  czemu to tak rzutuje ?
+        //dodać logikę, że jak nie ma pliku to najpierw zapisać to co jest a potem read ale to chyba mozna w DAO
+        bookDAOFile.readBookDAOFile();
+
+        Book book = new Book("Fundacja", "SF", new Author(bookDAOFile.generateAuthorID(), "Dan", "Simmons"), 90.99); // pytanie jak z tego korzystać
         bookDAOFile.addBook(book);
-        objectBook.put(book.getId(), book);
-        System.out.println(objectBook);
+
+        bookDAOFile.writeBookDAOFile();
+        bookDAOFile.readBookDAOFile();
 
         try {
 //            bookDAOFile.findBookByTitle("Sol");
 //            bookDAOFile.findBookByTitle("asda");
-            System.out.println( bookDAOFile.findBooksByTitle("asdco"));
+            System.out.println(bookDAOFile.findBooksByTitle("asdco"));
             bookDAOFile.findBookByID(39);
             bookDAOFile.findBookByID(6);
 
@@ -39,9 +34,6 @@ public class Main {
         } finally {
             System.out.println("finalny blok");
         }
-
-
-
 
 
         ////na lekcjach *****BOOKDAEOMEM /////
