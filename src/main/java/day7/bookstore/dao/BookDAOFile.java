@@ -10,14 +10,14 @@ import java.io.IOException;
 import java.util.*;
 
 public class BookDAOFile implements BookDAO {
-    private Map<Integer, Book> booksMap = new HashMap<>();  //
+    private Map<Integer, Book> booksMap = new HashMap<>();  //w mapach trzeba podawać typy obiektowe - nie można typów prostych
     private List<Author> authorsLists = new ArrayList<>();
 
-    public BookDAOFile() throws IOException, ClassNotFoundException {
+    public BookDAOFile() throws IOException {
         insertBooks();
     }
 
-    private void insertBooks() throws IOException, ClassNotFoundException {
+    private void insertBooks() throws IOException {
 
         int idA1 = generateAuthorID();
         Author stanislawLem = new Author(idA1, "Stanisław", "Lem");
@@ -74,6 +74,7 @@ public class BookDAOFile implements BookDAO {
         }
         return id;
     }
+
 
     @Override
     public void addBook(Book book) {

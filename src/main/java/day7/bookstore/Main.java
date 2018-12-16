@@ -5,36 +5,56 @@ import day7.bookstore.dao.BookDAOFile;
 import day7.bookstore.domain.Author;
 import day7.bookstore.domain.Book;
 import day7.bookstore.exceptions.OwnException;
+import day7.bookstore.view.UserInput;
 
 import java.io.IOException;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
-    public static void main(String[] args) throws IOException, ClassNotFoundException, OwnException {
+
+    public static void main(String[] args) throws IOException {
+        Book book = new UserInput().getBookFromUser();
+
+        List<Serializable> list = new ArrayList<>();
+        list.add(new Author());
+        list.add(new Book("fdffs", "title", "rodzaj", 3));
 
 
-        BookDAO bookDAOFile = new BookDAOFile();
-        //dodać logikę, że jak nie ma pliku to najpierw zapisać to co jest a potem read ale to chyba mozna w DAO
-        bookDAOFile.readBookDAOFile();
+        Serializable author = new Author(); //można i tak :]
 
-        Book book = new Book("Fundacja", "SF", new Author(bookDAOFile.generateAuthorID(), "Dan", "Simmons"), 90.99); // pytanie jak z tego korzystać
-        bookDAOFile.addBook(book);
+        BookDAO bookDAO = new BookDAOFile();
 
-        bookDAOFile.writeBookDAOFile();
-        bookDAOFile.readBookDAOFile();
 
-        try {
-//            bookDAOFile.findBookByTitle("Sol");
-//            bookDAOFile.findBookByTitle("asda");
-            System.out.println(bookDAOFile.findBooksByTitle("asdco"));
-            bookDAOFile.findBookByID(39);
-            bookDAOFile.findBookByID(6);
-
-        } catch (OwnException e) {
-            System.out.println(e.getMessage());
-        } finally {
-            System.out.println("finalny blok");
-        }
-
+    }
+//    public static void main(String[] args) throws IOException, ClassNotFoundException, OwnException {
+//
+//
+//        BookDAO bookDAOFile = new BookDAOFile();//dodać logikę, że jak nie ma pliku to najpierw zapisać to co jest a potem read ale to chyba mozna w DAO
+//
+//        bookDAOFile.readBookDAOFile();
+//        System.out.println(bookDAOFile.readBookDAOFile());
+//        Book book = new Book("Fundacja", "SF", new Author(bookDAOFile.generateAuthorID(), "Dan", "Simmons"), 90.99); // pytanie jak z tego korzystać
+//        bookDAOFile.addBook(book);
+//
+//        bookDAOFile.writeBookDAOFile();
+//        bookDAOFile.readBookDAOFile();
+//        System.out.println(bookDAOFile.readBookDAOFile());
+//
+//        try {
+////            bookDAOFile.findBookByTitle("Sol");
+////            bookDAOFile.findBookByTitle("asda");
+////            System.out.println(bookDAOFile.findBooksByTitle("asdco"));
+//            bookDAOFile.findBookByID(39);
+//            bookDAOFile.findBookByID(6);
+//
+//        } catch (OwnException e) {
+//            System.out.println(e.getMessage());
+//        } finally {
+//            System.out.println("finalny blok");
+//        }
+//
 
         ////na lekcjach *****BOOKDAEOMEM /////
 
@@ -60,7 +80,7 @@ public class Main {
 //        System.out.println("edytowanie ksiazki ********");
 //        bookDAO.editBook(book1.getId(), book1);
 //        System.out.println(bookDAO.getAllBooks());
-    }
+//    }
 }
 
 //dorobić dodawanie id authora  // DONE

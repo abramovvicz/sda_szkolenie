@@ -26,7 +26,7 @@ public class Book implements Serializable {
         this.cena = cena;
     }
 
-    public Book(int id, String tytuł, String typ_książki, String autor_ksiązki, int cena) {
+    public Book(String tytuł, String typ_książki, String autor_ksiązki, int cena) {
     }
 
     public int getId() {
