@@ -22,7 +22,7 @@ public class Mediana {
     private double countMediana(double[] doubles) {
         int doublesLength = doubles.length;
         double mediana = 0;
-        if (doubles.length == 0) {
+        if (doublesLength == 0) {
             mediana = 0;
             return mediana;
         }
