@@ -30,19 +30,19 @@ public class Kolekcje {
         Kolekcje kolekcje = new Kolekcje();
         kolekcje.addElement(0, "Sławek");
         kolekcje.removeElement(1);
-//        while (kolekcje.list.contains("Jakub")) {
-//            kolekcje.removeElement("Jakub");
-//        }
-//        kolekcje.sortElements();
-//        Collections.addAll( ) dodawanie jednej listy do drugiej
+        while (kolekcje.list.contains("Jakub")) {
+            kolekcje.removeElement("Jakub");
+        }
+        kolekcje.sortElements();
+//        Collections.addAll();// dodawanie jednej listy do drugiej
 //        Collections.asLifoQueue( ) zwaraca last input first output
 //        Collections.copy(); kopiowanie listy
-//        kolekcje.testElement("Ewelina");
-//        kolekcje.testList4();
-//        System.out.println(kolekcje.list);
-//        kolekcje.createSet();
-//        kolekcje.setNames();
-//        kolekcje.mapTest();
+        kolekcje.testElement("Ewelina");
+        kolekcje.testList4();
+        System.out.println(kolekcje.list);
+        kolekcje.createSet();
+        kolekcje.setNames();
+        kolekcje.mapTest();
         kolekcje.mapTest2();
 
     }
@@ -77,6 +77,7 @@ public class Kolekcje {
         map.put(5, new Name(24, "Jan", "Kowalski"));
         Name name = map.get(4);
         System.out.println(name);
+
     }
 
 
@@ -124,7 +125,7 @@ public class Kolekcje {
     }
 
     private void sortElements() {
-        list.sort(String::compareTo);
+        list.sort(String::compareTo); // lambda poczytać o tym
     }
 
     private void addElement(int index, String element) {
@@ -146,7 +147,7 @@ public class Kolekcje {
 //            System.out.println(list.get(i));
             System.out.printf("Element %d wartość %s%s \n", i, list.get(i), list.size() - 1 == i ? "." : ",");
         }
-        //tryby generyczne
+        //typy generyczne
     }
 
     private void testList2() {
@@ -156,7 +157,7 @@ public class Kolekcje {
         }
     }
 
-    private void testList3() {  // lamba
+    private void testList3() {  // lambda
         list.forEach(System.out::println);
     }
 

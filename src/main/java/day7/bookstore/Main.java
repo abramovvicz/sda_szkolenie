@@ -25,6 +25,7 @@ public class Main {
         Serializable author = new Author(); //można i tak :]
 
         BookDAO bookDAO = new BookDAOFile();
+        System.out.println(bookDAO.getAllBooks());
 
 
     }

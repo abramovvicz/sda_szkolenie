@@ -13,6 +13,6 @@ public abstract class Car {
         this.name = name;
     }
 
-    abstract void writeSth();  //bez środka w metodzie
+    abstract void writeSth();  //bez środka w metodzie metoda abstrakcyjna
     public void setText(){ }
 }

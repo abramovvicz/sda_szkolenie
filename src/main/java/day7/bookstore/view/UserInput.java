@@ -10,7 +10,7 @@ public class UserInput {
 
     public Book getBookFromUser() {
         String title = getData("Podaj tytuł ");
-        String gatunek = getData("Podaj gatunek ksiżki ");
+        String gatunek = getData("Podaj gatunek książki ");
         String price = getData("Podaj cene ");
         double pc = Double.valueOf(price); // fajna rzecz zmiana stringa na double !!!!!
         Author author = new Author(5, "Jan", "Brzechwa");

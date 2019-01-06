@@ -21,9 +21,10 @@ public class RepeatLetters {
     }
 
     private static void outPutMap2(Map<Character, Integer> map) {
-        for (Map.Entry<Character, Integer> entry : map.entrySet()) {   // Mp.Entry klasa, która posiada klucz i wartość
+        for (Map.Entry<Character, Integer> entry : map.entrySet()) {   // Map.Entry klasa, która posiada klucz i wartość
             //mapa przechowuje obiekty
             System.out.println("Klucz  " + entry.getKey() + " wartość " + entry.getValue());
+            System.out.println("entry " + entry);
 
         }
     }

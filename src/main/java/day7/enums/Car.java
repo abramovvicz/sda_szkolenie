@@ -2,13 +2,17 @@ package day7.enums;
 
 public enum Car {
     BMW("bóg mnie wybrał"),
-    JAGUAR ("klasyka"),
-    OPEL ("nie kupuj "),
-    VW ("uszuści"),
-    AUDI ("quattro rządzi");
+    JAGUAR("klasyka"),
+    OPEL("nie kupuj "),
+    VW("oszuści"),
+    AUDI("quattro rządzi");
 
     private String name;
-    private  String tekst;
+    private String tekst;
+
+     Car(String name) {
+        this.name = name;
+    }
 
     public String getTekst() {
         return tekst;
@@ -18,14 +22,11 @@ public enum Car {
         this.tekst = tekst;
     }
 
-    Car(String name) {
-        this.name = name;
-    }
-
     public String getName() {
         return name;
     }
-    public void wypisz(){
+
+    public void wypisz() {
         System.out.println("twój samochód to " + name);
     }
 }
